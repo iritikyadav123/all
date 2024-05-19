@@ -29,6 +29,7 @@ jobs:
         push: true
         tags: iritikyadav123/cd_pratice
 
+        
     - name: Verify Pushed Image
       run: docker pull iritikyadav123/cd_pratice
 
